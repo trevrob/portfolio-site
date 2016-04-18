@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*** MIXIN: Flexbox ************************************************************/
+/* Vertical Align Mixin */
+/* Clearfix */
+.clearfix {
+  display: block;
+  clear: both; }
+
+/** Media Query Mixins, Breakpoints **/
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("fonts/Brandon_blk.woff"), url("fonts/Brandon_blk.ttf");
+  font-weight: 700; }
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("fonts/Brandon_bld.woff"), url("fonts/Brandon_bld.ttf");
+  font-weight: 500; }
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("fonts/Brandon_med.woff"), url("fonts/Brandon_med.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("fonts/Brandon_reg.woff"), url("fonts/Brandon_reg.ttf");
+  font-weight: 300; }
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("fonts/Brandon_light.woff"), url("fonts/Brandon_light.ttf");
+  font-weight: 200; }
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("fonts/Brandon_thin.woff"), url("fonts/Brandon_thin.ttf");
+  font-weight: 100; }
+@font-face {
+  font-family: "Noe Display Bold";
+  src: url("fonts/Noe Display Bold.woff"), url("fonts/Noe Display Bold.ttf");
+  font-weight: 700; }
+@font-face {
+  font-family: "Century Old Style Std";
+  src: url("fonts/Noe Display Bold.woff") url("fonts/Noe Display Bold.ttf");
+  font-weight: 700; }
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  font: 17px/1.4 Verdana, Arial, sans-serif; }
+  @media all and (max-width: 697px) {
+    html,
+    body {
+      overflow-x: hidden; } }
+
+body {
+  background-color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
