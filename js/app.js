@@ -10,15 +10,15 @@ demoApp.config(function ($routeProvider) {
             controller: 'HomeController',
             templateUrl: 'views/welcome.html'
         })
-    .when('/about',
+    .when('/work-projects',
         {
-            controller: 'AboutController',
-            templateUrl: 'views/about.html'
+            controller: 'workProjectsController',
+            templateUrl: 'views/work-projects.html'
         })
-    .when('/posts',
+    .when('/personal-projects',
         {
-            controller: 'PostController',
-            templateUrl: 'views/posts.html'
+            controller: 'personalProjectsController',
+            templateUrl: 'views/personal-projects.html'
         })
     .otherwise({ redirectTo: '/' });
 

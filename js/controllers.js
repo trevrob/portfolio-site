@@ -1,17 +1,17 @@
 // home controller
 demoApp.controller('HomeController', function ($scope) {
-    $scope.header = "Welcome to my AngularJS demo";
+    $scope.header = "Home Page";
 });
 
 // about controller
-demoApp.controller('AboutController', function ($scope) {
-    $scope.header = "About";
+demoApp.controller('workProjectsController', function ($scope) {
+    $scope.header = "Work Projects";
 });
 
 // post controller
-demoApp.controller('PostController', function ($scope) {
+demoApp.controller('personalProjectsController', function ($scope) {
 
-    $scope.header = "Posts";
+    $scope.header = "Personal Projects";
 
     // define posts json
     $scope.posts =  [{
