@@ -65,21 +65,65 @@ table {
   font-family: "Century Old Style Std";
   src: url("fonts/Noe Display Bold.woff") url("fonts/Noe Display Bold.ttf");
   font-weight: 700; }
-*,
-*:before,
-*:after {
-  box-sizing: border-box; }
-
 html,
 body {
+  background-color: lightgrey;
+  width: 100%;
   height: 100%;
-  font: 17px/1.4 Verdana, Arial, sans-serif; }
-  @media all and (max-width: 697px) {
-    html,
-    body {
-      overflow-x: hidden; } }
+  overflow-x: hidden; }
 
-body {
-  background-color: #fff; }
+.container {
+  background-color: #fff;
+  width: 1366px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 15px 15px; }
+
+.section {
+  position: relative;
+  border: 1px solid grey;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  padding: 15px 15px; }
+
+.navbar .navbar-inner .nav li {
+  display: inline-block; }
+
+.section__crazy-balls .game-container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto; }
+  .section__crazy-balls .game-container .close {
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    float: right; }
+  .section__crazy-balls .game-container iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    background: yellow; }
+    .section__crazy-balls .game-container iframe svg {
+      width: 100%;
+      height: 100%; }
+
+.section__blackjack .game-container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto; }
+  .section__blackjack .game-container .close {
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    float: right; }
+  .section__blackjack .game-container iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    background: green; }
+    .section__blackjack .game-container iframe svg {
+      width: 100%;
+      height: 100%; }
 
 /*# sourceMappingURL=main.css.map */

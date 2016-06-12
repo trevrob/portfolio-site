@@ -1,8 +1,9 @@
 // app module
-var demoApp = angular.module('portfolioApp', []);
+var App = angular.module('portfolioApp', []);
 
 // routes
-demoApp.config(function ($routeProvider) {
+App.config(function ($routeProvider) {
+
 
    $routeProvider
     .when('/',
@@ -19,6 +20,16 @@ demoApp.config(function ($routeProvider) {
         {
             controller: 'personalProjectsController',
             templateUrl: 'views/personal-projects.html'
+        })
+    .when('/personal-projects/crazy-balls',
+        {
+            controller: 'crazyBallsController',
+            templateUrl: 'views/personal-projects/crazy-balls.html'
+        })
+    .when('/personal-projects/blackjack',
+        {
+            controller: 'blackJackController',
+            templateUrl: 'views/personal-projects/blackjack.html'
         })
     .otherwise({ redirectTo: '/' });
 

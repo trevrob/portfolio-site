@@ -1,21 +1,26 @@
 ////////////////////////////////////////////////////////////////////////////////////////////
 // Globals
 ////////////////////////////////////////////////////////////////////////////////////////////
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 html, 
 body { 
-  height: 100%; 
-  font: 17px/1.4 Verdana, Arial, sans-serif;
-  @include respond-to(mobile) {
-    overflow-x: hidden; 
-  }
+	background-color: lightgrey; 
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+.container {
+	background-color: #fff; 
+	width: 1366px;
+	margin: 0 auto;
+	height: 100%;
+	padding: 15px 15px;
+}
+.section {
+	position: relative;
+	border: 1px solid grey;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	padding: 15px 15px;
 }
 
-body {
-  background-color: #fff; 
-}
